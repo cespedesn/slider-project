@@ -43,7 +43,7 @@ function carousel() {
     else{
         previousBtn.style.display = "none";
     }
-    slides.forEach(function(slide) {
+    slides.forEach(function(slide){
         slide.style.transform = `translateX(-${counter * 100}%)`;
     })
 }
